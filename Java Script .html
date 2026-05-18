@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("Drashti Limbasiya<br>");
+        alert("Are you sure want to delete this.");
+        console.log("Drashti Limbasiya<br>");
+
+        var a=20;
+        var b=10;
+        var d=30;
+        var c = a+b;
+        var e = a-b;
+        var f = a*b;
+        var g = a/b;
+        var h = a%b;
+        document.write("<br>------ Arithmatic Operator------<br>");
+        document.write("<br> Addition of a and b is:" + c + "<br>");//Arithmatic Operator
+        document.write("<br> Subtraction of a and b is:" + e + "<br>");//Arithmatic Operator
+        document.write("<br> Multiplication of a and b is:" + f + "<br>");//Arithmatic Operator
+        document.write("<br> Divison of a and b is:" + g + "<br>");//Arithmatic Operator
+        document.write("<br> Module of a and b is:" + h + "<br><br>");//Arithmatic Operator
+
+        //Check number is odd or even
+        document.write("<br>------ Number is odd or even------<br><br>");
+        if(a%2==0)
+        {
+            document.write("<br>" + a  + " is even number<br><br>");
+
+        }
+        else
+        {
+            document.write("<br>" + a  + " is odd number<br><br>");
+        }
+
+
+        //Logical Operator
+        document.write("<br>------ Logical Operator------<br><br>");
+        if(a>b && b>d && a>d)
+        {
+            document.write("<br>Every numbers are equal<br><br>");
+        }
+        else
+        {
+            
+            document.write("<br>Every numbera are not equal<br><br>");
+        }
+
+        //Relational Operator
+        document.write("<br>------ Relational Operator------<br><br>");
+        if(a==b)
+        {
+             document.write("<br>Both numbers are not equal<br><br>");
+        }
+        else
+        {
+             document.write("<br>Both numbers are not equal<br><br>");
+        }
+
+        //If Statement
+         document.write("<br>------ If Statement------<br><br>");
+        if(a==1)
+        {
+            document.write("<br> It is 1 <br>");
+        }
+
+        //If-else Statement
+         document.write("<br>------ If-Statement Statement------<br><br>");
+         var age=20;
+         if(age>18)
+         {
+            document.write("<br> You can VOTE <br>");
+         }
+         else
+         {
+            document.write("<br> You cannot VOTE <br>");
+         }
+
+         //Ladder If Statement
+         document.write("<br>------ Ladder-If Statement------<br><br>");
+         var no=25
+         document.write("No=" + no + "<br>");
+         if(no>0)
+         {
+            document.write("<br> Number is positive <br>");
+         }
+         else if(no<0)
+         {
+            document.write("<br> Number is negative <br>");
+         }
+         else
+         {
+            document.write("<br> Number is zero <br>");
+         }
+
+         //Nested-If statement
+         document.write("<br>------ Nested-If Statement------<br><br>");
+         var age=24;
+         var gen="F";
+         if(age>21)
+         {
+            if(gen=='F')
+            {
+                document.write("<br> You can Marry <br>");
+            }
+            else
+            {
+                document.write("<br> Sorry! You can not marry <br>");
+            }
+         }
+
+         //Switch Case
+         document.write("<br>------ Switch Case ------<br><br>");
+         switch("B")
+         {
+            case "R":
+                document.write("<br> your choice is Red <br>");
+                break;
+            case "G":
+                document.write("<br> Your choice is Green <br>");
+                break;
+            case "B":
+                document.write("<br> Your choice is Blue <br>");
+                break;
+            default:
+                document.write("<br> Your choice is another <br>");
+         }
+
+         //For loop
+         document.write("<br>------ For loop ------<br><br>");
+         var a=1;
+         for(a=1;a<=10;a++)
+         {
+            document.write("<br>" + a);
+         }
+
+         //While Loop
+         document.write("<br>------ While loop ------<br><br>");
+         var a=1;
+         while(a<=10)
+         {
+            document.write("<br>" + a);
+            a++;
+         }
+
+         //Do-While Loop
+         document.write("<br>------ Do-While loop ------<br><br>");
+         var a=1;
+         do
+         {
+            document.write("<br>" +a);
+            a++;
+         }while(a<=10);
+
+         //Break Statement
+          document.write("<br>------ Break Statement ------<br><br>");
+          var i=0;
+          for(i=0;i<=10;i++)
+          {
+                if(i==3)
+                {
+                    break;
+                    
+                }
+                document.write("<br>"+ i);
+          }
+
+          //Continue Statement
+          document.write("<br>------ Continue Statement ------<br><br>");
+          var i=0;
+          for(i=0;i<=10;i++)
+          {
+            if(i==3)
+            {
+                continue;
+                
+            }
+            document.write("<br>" + i);
+          }
+
+        //Alert Dialog
+        document.write("<br>------ Alert Dialog ------<br><br>");
+        var name="Creative Design"
+        alert("Welcome to " + name );
+
+
+        //Confirm Dialog
+        document.write("<br>------ Confirm Dialog ------<br><br>");
+        if(confirm("Are you Coming?"))
+        {
+            document.write("<br> Welcome <br>");
+        }
+        else
+        {
+            document.write("<br> No Thanks <br>");
+        }
+
+        //Prompt Dialog Box
+        document.write("<br>------ Prompt Dialog Box ------<br><br>");
+        var a,b;
+        a=prompt("<br> Enter value for A:", 0 );
+        b=prompt("<br> Enter value for B:", 0 );
+        document.write("<br> Value of A + B=",parseInt(a)+parseInt(b) );
+
+        
+        //String Functions
+        document.write("<br><center>------ String Functions ------<br><br>");
+        document.write("<br><br>");
+        document.write("<br><center>------ 1.big() ------<br><br>");
+        var city="Surat"
+        document.write("<br><center>Hello....!World <br>");
+        document.write("<br>",city.big());
+        document.write("<br> Welcome to our College <br>");
+
+
+
+
+        document.write("<br>------ 2.small() ------<br><br>");
+        var city="surat" 
+        document.write("<br><center>Hellooo…!World <br>"); 
+        document.write("<br>",city.small()); 
+        document.write("<br>Welcome to Our College <br>"); 
+
+
+
+        document.write("<br>------ 3.bold() ------<br><br>");
+        var city="surat" 
+        document.write("<br><center>Hellooo…!World…"); 
+        document.write("<br>",city.bold()); 
+        document.write("<br>Welcome to Our College"); 
+
+        document.write("<br>------ 4.italic() ------<br><br>");
+        var city="surat" 
+        document.write("<br><center>Hellooo…!World…"); 
+        document.write("<br>",city. italics()); 
+        document.write("<br>Welcome to Our College");
+
+        document.write("<br>------ 5.strike() ------<br><br>");
+        var city="surat" 
+        document.write("<br><center>Hellooo…!World…"); 
+        document.write("<br>",city. strike()); 
+        document.write("<br>Welcome to Our College"); 
+
+        document.write("<br>------ 6.fontcolor() ------<br><br>");
+        var city="surat" 
+        document.write("<br><center>Hellooo…!World…"); 
+        document.write("<br>",city. fontcolor("red")); 
+        document.write("<br>Welcome to Our College"); 
+
+        document.write("<br>------ 7.fontsize() ------<br><br>");
+        var city="surat" 
+        document.write("<br><center>Hellooo…!World…"); 
+        document.write("<br>",city. fontsize(6)); 
+        document.write("<br>Welcome to Our College");
+
+        document.write("<br>------ 8.link() ------<br><br>");
+        var city="surat" 
+        document.write("<br><center>Hellooo…!World…"); 
+        document.write("<br>",city. link("image/demo.jpg")); 
+        document.write("<br>Welcome to Our College"); 
+
+        document.write("<br>------ 9.length() ------<br><br>");
+        var nm="Good Morning " 
+        size=nm.length; 
+        document.write("<br>Size is ",size);
+
+
+        document.write("<br>------ 10.charAt() ------<br><br>");
+        var name="Be Creative";
+        document.write("<br> ",name.charAt(5)); 
+
+        document.write("<br>------ 11.concat() ------<br><br>");
+        var name="Be Creative"; 
+        document.write("<br> ",name.concat(", Always Creative"));
+
+
+
+
+        document.write("<br>------ 12.indexOf() ------<br><br>");
+        var name="Be Creative"; 
+        document.write(name.indexOf("C"));
+
+        document.write("<br>------ 13. lastIndexOf() ------<br><br>");
+        var name="Be Creative"; 
+        document.write(name.lastIndexOf("C"));
+
+
+        document.write("<br>------ 14. match() ------<br><br>");
+        var name="Be Creative"; 
+        var mystr = (name.match("Creative")); 
+        if(mystr != null)
+        { 
+            document.write("Your String is Match"); 
+        }
+        else
+        { 
+            document.write("Your String is Not Match");
+        } 
+
+
+
+        document.write("<br>------ 15. replace() ------<br><br>");
+        var name="Be Creative"; 
+        var mystr = (name.replace("Be","Always")); 
+        document.write(mystr);
+
+        
+        document.write("<br>------ 16. search() ------<br><br>");
+        var name="Be Creative"; 
+        var mystr = (name.search("Creative")); 
+        if(mystr >= 0)
+        { 
+        document.write("Text Found"); 
+        }
+        else
+        { 
+            document.write("Text Not Found");
+        } 
+
+
+        document.write("<br>------ 17. slice() ------<br><br>");
+        var name="Be Creative"; 
+        document.write(name.slice(0,2)); 
+        document.write("<br>"+name.slice(3,11)); 
+
+        document.write("<br>------ 18. substr() ------<br><br>");
+         var name="Be Creative"; 
+         var mystr = (name.substr(1,6)); 
+        document.write(mystr); 
+
+        document.write("<br>------ 19. substring() ------<br><br>");
+        var name="Be Creative"; 
+        var mystr = (name.substring(3,8)); 
+        document.write(mystr);
+
+        document.write("<br>------ 20. toLowerCase() ------<br><br>");
+        var name="Be CreAtivE"; 
+        document.write (name.toLowerCase()); 
+
+        document.write("<br>------ 21. toUpperCase() ------<br><br>");
+        var name="Be CreAtivE"; 
+        document.write (name.toUpperCase()); 
+
+
+
+        document.write("<br><center>------ Math Functions ------<br><br>");
+        document.write("<br><br>");
+        document.write("<br><center>------ 1.abs() ------<br><br>");
+        for(var a=-3;a<=3;a++) 
+        {  
+            document.write("<br>"); 
+            document.write(Math.abs(a)); 
+        }
+
+        document.write("<br><center>------ 2.ceil() ------<br><br>");
+        document.write(Math.ceil(3.5)); 
+
+        document.write("<br><center>------ 3.floor() ------<br><br>");
+        document.write(Math.floor(3.5));
+
+        document.write("<br><center>------ 4.pow() ------<br><br>");
+        document.write(Math.pow(3,2));
+
+        document.write("<br><center>------ 5.random() ------<br><br>");
+        document.write(Math.random());
+
+        document.write("<br><center>------ 6.max() ------<br><br>");
+        document.write(Math.max(25,50,30,5,20));
+
+        document.write("<br><center>------ 7.min() ------<br><br>");
+        document.write(Math.min(25,50,30,5,20));
+
+        document.write("<br><center>------ 8.round() ------<br><br>");
+        document.write(Math.round(25.579521));
+
+
+
+
+        document.write("<br><center>------ Date Functions ------<br><br>");
+        document.write("<br><br>");
+        document.write("<br><center>------ 1.date() ------<br><br>");
+        document.write(Date()); 
+
+        document.write("<br><center>------ 2.getDay() ------<br><br>");
+        var cdate=new Date(); 
+        document.write("Day:"+cdate.getDay());
+
+
+        document.write("<br><center>------ 3.getMonth() ------<br><br>");
+        var cdate=new Date(); 
+        document.write("Month:"+cdate.getMonth());
+
+        document.write("<br><center>------ 4.getFullYear() ------<br><br>");
+        var cdate=new Date(); 
+        document.write("Year : "+cdate.getFullYear()); 
+
+        document.write("<br><center>------ 5.getHours() ------<br><br>");
+        var cdate=new Date(); 
+        document.write("Hours : "+cdate.getHours());
+
+        document.write("<br><center>------ 6.getMinutes() ------<br><br>");
+        var cdate=new Date(); 
+        document.write("Minutes : "+cdate.getMinutes());
+
+
+        document.write("<br><center>------ 7.getSeconds() ------<br><br>");
+        var cdate=new Date(); 
+        document.write("Seconds : "+cdate.getSeconds());
+
+        document.write("<br><center>------ 8.getMilliseconds() ------<br><br>");
+        var cdate=new Date(); 
+        document.write("Milli Seconds : "+cdate.getMilliseconds());
+
+        document.write("<br><center>------ 9.getTime() ------<br><br>");
+        var cdate=new Date(); 
+        document.write("Milliseconds : "+cdate.getTime());
+
+        document.write("<br><center>------ 10.setDate() ------<br><br>");
+        var cdate=new Date(); 
+        cdate.setDate(6) 
+        document.write("Set Date:"+cdate); 
+
+        document.write("<br><center>------ 11.setMonth() ------<br><br>");
+        var cdate=new Date(); 
+        cdate.setMonth(3); 
+        document.write("Set Month:"+cdate);
+
+        document.write("<br><center>------ 12.setFullYear() ------<br><br>");
+        var cdate=new Date(); 
+        cdate.setFullYear(2025); 
+        document.write("Set Year : "+cdate);
+
+
+        document.write("<br><center>------ 13.setHours() ------<br><br>");
+        var cdate=new Date(); 
+        cdate.setHours(21); 
+        document.write("Set Hours : "+cdate);
+
+        document.write("<br><center>------ 14.setMinutes() ------<br><br>");
+        var cdate=new Date(); 
+        cdate.setMinutes(35); 
+        document.write("Set Minutes : "+cdate);
+
+        document.write("<br><center>------ 15.setSeconds() ------<br><br>");
+        var cdate=new Date(); 
+        cdate.setMinutes(40); 
+        document.write("Set Seconds : "+cdate); 
+
+
+    
+
+
+
+
+
+        document.write("<br><center>------ Array Functions ------<br><br>");
+        document.write("<br><br>");
+        document.write("<br><center>------ 1.concat() ------<br><br>");
+        var fruit=new Array("Banana","Apple","Mango");  
+        var vege=new Array("Carrot","Radish","Tomoto"); 
+        fruit=fruit.concat(vege); 
+        document.write("Mix  : ",fruit);
+
+        document.write("<br><center>------ 2.join() ------<br><br>");
+        var fruit=new Array("Banana","Apple","Mango");  
+        document.write("<br>Fruits  : ",fruit.join(" * * "));
+
+        document.write("<br><center>------ 3.pop() ------<br><br>");
+        var fruit=new Array("Banana","Apple","Mango");  
+        fruit.pop(); 
+        document.write("<br>Fruits  : ",fruit);
+
+        document.write("<br><center>------ 4.push() ------<br><br>");
+        var fruit=new Array("Banana","Apple","Mango"); 
+        fruit.push("Orange"); 
+        document.write("<br>Fruits  : ",fruit);
+
+        document.write("<br><center>------ 5.reverse() ------<br><br>");
+        var fruit=new Array("Banana","Apple","Mango"); 
+        var revarray=fruit.reverse(); 
+        document.write("<br>Fruits  : ",revarray);
+
+        document.write("<br><center>------ 6.shift() ------<br><br>");
+        var fruit=new Array("Banana","Apple","Mango");  
+        fruit.shift(); 
+        document.write("<br>Fruits  : ",fruit);
+
+        document.write("<br><center>------ 7.sort() ------<br><br>");
+        var data=new Array("7","4","2","1","5"); 
+        document.write("<br>Number  : ",data); 
+        data.sort(); 
+        document.write("<br>Sorted Number  : ",data);
+
+        document.write("<br><center>------ 8.length() ------<br><br>");
+        var data=new Array("7","4","2","1","5");  
+        var elements=data.length; 
+        document.write("Number of element :",elements);
+
+         </script>
+</body>
+</html>
